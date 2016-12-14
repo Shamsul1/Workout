@@ -8,11 +8,11 @@ public class Workout {
 
     String name;
     String description;
-    private static final Workout[] workout = {
-            new Workout("Limb loosener", "2 pushups 2 squats"),
-            new Workout("Limb loosener", "3 pushups 3 squats"),
-            new Workout("Limb loosener", "4 pushups 4 squats"),
-            new Workout("Limb loosener", "5 pushups 5 squats")};
+    public static final Workout[] workout = {
+            new Workout("Limb loosener1", "2 pushups 2 squats"),
+            new Workout("Limb loosener2", "3 pushups 3 squats"),
+            new Workout("Limb loosener3", "4 pushups 4 squats"),
+            new Workout("Limb loosener4", "5 pushups 5 squats")};
 
 
     public Workout(String name, String description) {

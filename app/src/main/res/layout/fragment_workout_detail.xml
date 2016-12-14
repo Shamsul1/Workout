@@ -10,14 +10,12 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Core Agony" />
+        android:text="Core Agony"
+        android:id="@+id/workout_title" />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Push ups" />
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Sit Ups" />
+        android:text="Push ups"
+        android:id="@+id/workout_description" />
 
 </LinearLayout>
